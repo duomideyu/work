@@ -1,0 +1,171 @@
+*{	margin: 0;
+	padding: 0;
+}
+.wrap{
+	/*width: 980px;*/
+	width: 100%;
+	margin: 0 auto;
+	background: #789;
+}
+header {
+	width: 100%;
+	height: 80px;
+	background: #812885;
+}
+#logo {
+	float: left;
+	height: 80px;
+	width: 260px;
+}
+#logo img{
+	width: 100px;
+	height: 30px;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+/*logo结束*/
+#nav{
+	width: 360px;
+	height: 30px;
+	float: right;
+	margin-top: 45px;
+}
+ 
+#nav,#list ul {
+	height: 30px;
+	width: 230px;
+	line-height: 30px;
+}
+ 
+#nav,#list li{
+	list-style: none;
+	float: left;
+	padding-left: 28px;
+}
+#nav,#list ul li a{
+	font-size: 14px;
+	font-family: "宋体";
+	text-decoration: none;
+	color: #fff;
+}
+#gitIcon {
+	position: absolute;
+	right: 10px;
+	top: 46px;
+}
+/*header结束*/
+/*.class{
+	width: 100%;
+	margin: 0 auto;
+}*/
+/*#banner{
+	width: 100%;
+	height: 540px;
+}
+#banner img {
+	height: 540px;
+	width: 100%;
+}*/
+#banner{
+	width: 100%;
+	height: 460px;
+	background: url(../img/banner-bg.jpg) no-repeat;
+	position: relative;
+}
+#bannerText {
+	width: 400px;
+	height: 100px;
+	padding: 10px 10px 30px;
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.7),
+    			rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0));
+
+	position: absolute;
+	bottom: 0;
+	right: 40px;
+}
+#bannerText h1{
+	text-align: right;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+#bannerText p{
+	line-height: 150%;
+	text-indent: 2em;
+	font-size: 12px;
+}
+.clear:after {content:""; display:block;clear:both; }
+.clear { zoom:1; }
+#intro {
+	margin: 0 auto;
+	width: 1000px;
+}
+.introCont{
+	width: 300px;
+	background: #fff;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	/*margin: 0 auto;*/
+}
+.introCont img{
+	width: 300px;
+	height: 180px;
+	margin-bottom: 15px;
+}
+.introCont p{
+	font-size: 12px;
+	line-height: 170%;
+	padding: 0 30px;
+	padding-top: 25px;
+}
+#selfIntro{
+	width: 100%;
+	height: 500px;
+}
+.circle {
+	width: 180px;
+	margin: 0 auto;
+	margin-bottom: -130px;
+}
+.circle img{
+	width: 160px;
+	height: 160px;
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	border-radius: 50%;
+	margin: 50px 0;
+}
+.selfCont{
+	padding-top: 160px;
+	width: 600px;
+	margin: 0 auto;
+}
+.selfCont h1{
+	font-size: 20px;
+	color: #000;
+	font-family: "Century Gothic";
+	margin-bottom: 20px;
+	text-align: center;
+}
+.selfCont p{
+	font-size: 14px;
+	color: #000;
+}
+/*content结束*/
+footer{
+	width: 100%;
+	background: #000;
+}
+#list{
+	width: 360px;
+	height: 30px;
+	/*float: right;*/
+	margin-top: 45px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+#list hr{
+	width: 100%;
+	color: #567;
+}
+
