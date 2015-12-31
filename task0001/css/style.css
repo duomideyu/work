@@ -197,17 +197,81 @@ hr{
 .fenList li{
 	list-style: none;
 }
-#contant {
+.contant {
 	float: left;
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
+	position: relative;
 }
 #contant p {
 	color: #FFF;
 	margin-bottom: 20px;
-	font-size: 40px;
+
 }
 /*index.html结束*/
+
+/*blog.html开始*/
+#cont_left{
+	width: 600px;
+	/*background: #fff;*/
+	margin-left: 160px;
+}
+.content{
+	position: relative;
+}
+aside {
+	width: 48px;
+	height: 70px;
+	position: absolute;
+	padding-left: 112px;
+}
+#a1 {
+	top: 40px;
+	/*left: 112px;*/
+}
+#a2{
+	top: 400px;
+	/*left: 112px;*/
+}
+#a3 {
+	top: 750px;
+	/*left: 112px;*/
+}
+aside .asiCon{
+	background-color: rgba(143, 27, 148, 1);
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+}
+aside #bottom{
+	background-color: rgba(143, 27, 148, 0.5);
+}
+article {
+	padding: 14px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+article h1{
+	font-size: 20px;
+	color: #812422;
+
+}
+article h2{
+	padding: 10px 0;
+	font-size: 16px;
+	color: #666;
+}
+article h3{
+	padding-top: 10px;
+	font-size: 16px;
+	color: #777;
+	margin-left: 300px;
+}
+article p{
+	color: #000;
+	font-size: 14px;
+	line-height: 150%;
+}
 
 
