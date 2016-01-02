@@ -213,12 +213,13 @@ hr{
 
 /*blog.html开始*/
 #cont_left{
-	width: 600px;
+	width: 640px;
 	/*background: #fff;*/
 	margin-left: 160px;
 }
 .content{
 	position: relative;
+	padding-bottom: 20px;
 }
 aside {
 	width: 48px;
@@ -252,7 +253,7 @@ article {
 	margin-bottom: 20px;
 	background: #fff;
 }
-article h1{
+article h1{;
 	font-size: 20px;
 	color: #812422;
 
@@ -273,5 +274,104 @@ article p{
 	font-size: 14px;
 	line-height: 150%;
 }
-
-
+#page ul {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 610px;
+}
+#page ul li {
+	list-style: none;
+	float: left;
+	/*width: 48px;
+	height: 50px;
+	line-height: 50px;*/
+	/*padding: 15px;*/
+	text-align: center;
+	margin-right: 10px;
+	background: #FFF;
+}
+#page ul li a{
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding: 15px;
+}
+.active{
+	background:   rgba(143, 27, 148, 1);
+}
+#cont_right {
+	width: 240px;
+	position: absolute;
+	right: 280px;
+	top: 0;
+	/*background: #FFF;*/
+}
+#search {
+	height: 60px;
+	background: #FFF;
+	line-height: 60px;
+	padding-left: 20px;
+}
+#search input{
+	height: 30px;
+}
+#skills ul{
+	width: 240px;
+	/*height: 400px;*/
+	line-height: 300%;
+	background: #fff;
+	margin-top: 30px;
+}
+#skills ul li {
+	list-style: none;
+}
+#skills ul li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	border: 1px solid #CEB4CF;
+	margin-top: -1px;
+	padding-left: 20px;
+	border-right: 0;
+	border-left: 5px solid #BE3FC3;
+}
+#skills ul li a:hover{
+	border-left: 5px solid #BEFFCC;
+}
+#date {
+	width: 240px;
+	background: #FFF;
+	text-align: center;
+	padding: 15px 0;
+	margin-top: 30px;
+}
+#date table{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+#date  table span{
+	color: #DD3BA3;
+}
+#date table td{
+	padding: 10px;
+}
+#date table tr {
+	border-bottom: 1px solid #D8C9DB;
+}
+#tags{
+	margin-top: 30px;
+	width: 230px;
+	background: #fff;
+	line-height: 200%;
+	padding-left: 10px;
+	color: #921465;
+	padding-bottom: 30px;
+}
+#tags h3 {
+	color: #47473E;
+}
+#tags span {
+	font-weight: bold;
+	font-size: 130%;
+	color: #921465;
+}
