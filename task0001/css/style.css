@@ -306,13 +306,13 @@ article p{
 	top: 0;
 	/*background: #FFF;*/
 }
-#search {
+.search {
 	height: 60px;
 	background: #FFF;
 	line-height: 60px;
 	padding-left: 20px;
 }
-#search input{
+.search input{
 	height: 30px;
 }
 #skills ul{
@@ -375,3 +375,260 @@ article p{
 	font-size: 130%;
 	color: #921465;
 }
+/*blog.html结束*/
+/*gallery.html开始*/
+#con_left{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+#tab {
+    background: #fff;
+    overflow: hidden;
+    width: 706px;
+}
+#tab ul{
+	float: left;
+}
+#tab ul li{
+	list-style: none;
+	padding: 15px 20px 20px;
+	float: left;
+	border: 1px solid #eee;
+	border-top: 3px solid #7643a5;
+	color: #777;
+}
+#box {
+    background: #FFF;
+    overflow: hidden;
+    height: 720px;
+    width: 810px;
+}
+#box .box{
+	/*float: left;*/
+	padding: 10px 0 0 10px;
+}
+.box_left,.box_right{
+	float: left;
+}
+#box img{
+	display: block;
+}
+.box h2 {
+    color: #fff;
+    font-size: 14px;
+    width: 100px;
+    margin-left: 52px;
+}
+.box p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px;
+	/*width: 100px;*/
+    margin-left: 52px;
+}
+.box_left,.box_right{
+	width: 400px;
+}
+.box_leftPic1 img{
+	width: 390px;
+}
+.box_leftPic1_cont{
+	width: 350px;
+	padding: 10px 20px;
+	background:#662167;
+}
+/*.box_leftPic2{
+	width: 190px;
+	float: left;
+}*/
+
+.box_leftPic2_cont,.box_rightPic2_cont,
+.box_rightPic5_cont{
+	width: 150px;
+	padding: 10px 20px;
+	background:#D8AF19;
+}
+.box_leftPic2,.box_leftPic3{
+	width: 190px;
+	float: left;
+}
+.box_leftPic2 img,.box_leftPic3 img,
+.box_leftPic4 img,.box_leftPic5 img,
+.box_rightPic1 img,.box_rightPic2 img,
+.box_rightPic3 img,.box_rightPic4 img,
+.box_rightPic5 img{
+	width: 190px;
+}
+/*.box_leftPic3 img{
+	width: 190px;
+}*/
+.box_leftPic3_cont,.box_rightPic3_cont{
+	width: 150px;
+	padding: 10px 20px;
+	background:#88230C;
+}
+.box_leftPic4,.box_leftPic5,
+.box_rightPic1,.box_rightPic2,
+.box_rightPic3,.box_rightPic4,
+.box_rightPic5{
+	width: 190px;
+	float: left;
+}
+.box.box_leftPic5 {
+    position: absolute;
+    top: 540px;
+}
+.box_leftPic4_cont,.box_rightPic4_cont{
+	width: 150px;
+	padding: 10px 20px;
+	background: #8E1084;
+}
+.box_leftPic5_cont,.box_rightPic1_cont
+{
+	width: 150px;
+	padding: 10px 20px;
+	background:#662167;
+}
+.box.box_rightPic3 {
+    position: absolute;
+    top: 266px;
+}
+.box.box_rightPic4 {
+    position: absolute;
+    top: 480px;
+}
+.box.box_rightPic5 {
+    position: absolute;
+    left: 700px;
+    top: 295px;
+}
+span.icon{
+    padding: 5px;
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    margin-right: 20px;
+}
+#con_left #more {
+    width: 130px;
+    padding: 15px 340px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+#con_left #more p{
+	float: right;
+}
+/*cont_left结束*/
+/*cont_right开始*/
+#con_right {
+    width: 240px;
+    position: absolute;
+    left: 920px;
+    top: 57px;
+}
+#rank{
+	padding: 20px 10px;
+	background: #fff;
+	margin-top: 10px;
+}
+#rank p{
+	font-size: 14px;
+	color: #777;
+}
+.rank_cont{
+	padding-top: 10px;
+}
+#rank ul li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.rank_cont .num {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #360E86;
+    display: block;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.rank_contList {
+    width: 100px;
+    height: 20px;
+    /*background-color: #444;*/
+    float: left;
+    margin: 0 10px;
+}
+.rank_cont1_1{
+	width: 100px;
+	height: 20px;
+	background: #360E86;
+	float: left;
+}
+.rank_cont1_2{
+	width: 0;
+	height: 20px;
+	background: #eee;
+}
+.rank_cont2_1{
+	width: 75px;
+	height: 20px;
+	background: #360E86;
+	float: left;
+}
+.rank_cont2_2{
+	width: 25px;
+	height: 20px;
+	background: #eee;
+	float: left;
+}
+.rank_cont3_1{
+	width: 60px;
+	height: 20px;
+	background: #360E86;
+	float: left;
+}
+.rank_cont3_2{
+	width: 40px;
+	height: 20px;
+	background: #eee;
+	float: left;
+}
+.rank_cont4_1{
+	width: 50px;
+	height: 20px;
+	background: #360E86;
+	float: left;
+}
+.rank_cont4_2{
+	width: 50px;
+	height: 20px;
+	background: #eee;
+	float: left;
+}
+.rank_cont5_1{
+	width: 30px;
+	height: 20px;
+	background: #360E86;
+	float: left;
+}
+.rank_cont5_2{
+	width: 70px;
+	height: 20px;
+	background: #eee;
+	float: left;
+}
+/*gallery结束*/
+
+
+
+
+
