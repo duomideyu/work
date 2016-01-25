@@ -167,12 +167,8 @@ footer{
 }
 #listBottom {
 	width: 360px;
-	height: 30px;
-	/*float: right;*/
-	margin-top: 45px;
 	margin: 0 auto;
 	padding: 10px 0;
-	float: center;
 }
 hr{
 	width: 100%;
@@ -196,6 +192,11 @@ hr{
 }
 .fenList li{
 	list-style: none;
+}
+div#contant {
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
 }
 .contant {
 	float: left;
@@ -314,6 +315,12 @@ article p{
 }
 .search input{
 	height: 30px;
+}
+input[type="button"] {
+    width: 40px;
+    border: none;
+    height: 34px;
+    margin-left: -10px;
 }
 #skills ul{
 	width: 240px;
@@ -628,7 +635,82 @@ span.icon{
 }
 /*gallery结束*/
 
-
-
+/*about开始*/
+.cont_center{
+	width: 980px;
+	background: #FFF;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.intro img {
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    margin-top: -80px;
+    border: 10px solid #DFE3E4;
+    border-radius: 90px;
+    display: block;
+}
+.intro h1,.cant h1,.edu h1,.job h1{
+	font-size: 20px;
+	margin-left: 240px;
+	color: #000;
+	float: left;
+}
+.intro p,.cant p,.edu p,.job p{
+	font-size: 14px;
+	margin-left: 540px;
+	color: #000;
+	padding-right: 90px;
+}
+.cant img,.edu img,.job img {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    /*top: 20px;*/
+    /*margin-top: -80px;*/
+    /*border: 10px solid #DFE3E4;*/
+    border-radius: 60px;
+    display: block;
+}
+.year{
+	margin-top: -250px;
+	/*margin: 0 auto;*/
+}
+.year .year_cont{
+	border: 5px solid #DFE3E4;
+	width: 40px;
+	height: 20px;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.year .line{
+	margin: 0 auto;
+	width: 5px;
+	height: 50px;
+	background: #DFE3E4;
+	display: block;
+}
+.year_bottom {
+    margin-top: -225px;
+}
+.job{
+	padding: 0;
+}
+.line_top, .line_bottom {
+    margin: 0 auto;
+    width: 5px;
+    height: 160px;
+    background: #DFE3E4;
+    display: block;
+    margin-top: -160px;
+}
+.edu p,.job p{
+	padding-top: 50px;
+}
 
 
